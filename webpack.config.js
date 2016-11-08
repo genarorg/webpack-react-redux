@@ -22,6 +22,7 @@ const common = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      template: './index.ejs',
       title: 'Webpack demo'
     })
   ]
